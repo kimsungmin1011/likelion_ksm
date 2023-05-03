@@ -1,0 +1,17 @@
+a = input("8자리 정수 입력: ")
+b=a[4]+a[5]+a[6]+a[7]
+c=a[0]+a[1]+a[2]+a[3]
+print(f'상위 4자리 정수 x: {c}')
+print(f'하위 4자리 정수 x: {b}')
+sum = int(b)+int(c)
+print(f'{c}+{b}={sum}')
+sub = int(b)-int(c)
+print(f'{c}-{b}={sub}')
+mul = int(b)*int(c)
+print(f'{c}*{b}={mul}')
+nanugi = int(c)/int(b)
+print(f'{c}/{b}={nanugi}')
+mok = int(c)//int(b)
+print(f'{c}//{b}={mok}')
+namuji = int(c)%int(b)
+print(f'{c}%{b}={namuji}')
